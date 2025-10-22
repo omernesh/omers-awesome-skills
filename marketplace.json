@@ -1,0 +1,19 @@
+{
+  "name": "omers-awesome-skills",
+  "displayName": "Omer's Awesome Skills",
+  "description": "A collection of expert-level Claude Code skills for automation, AI agents, workflow engineering, and more.",
+  "author": "omernesh",
+  "version": "1.0.0",
+  "repository": "https://github.com/omernesh/omers-awesome-skills",
+  "skills": [
+    {
+      "name": "n8n-workflow-engineer",
+      "displayName": "n8n Workflow Engineer",
+      "description": "Expert-level skill for designing, implementing, validating, and maintaining production-ready n8n automation workflows using comprehensive MCP tooling. Handles everything from simple webhook-to-API flows to complex multi-agent AI systems.",
+      "path": "n8n-workflow-engineer",
+      "version": "1.0.0",
+      "category": "automation",
+      "tags": ["n8n", "automation", "workflows", "AI", "integration", "MCP", "workflow-engineering"]
+    }
+  ]
+}
