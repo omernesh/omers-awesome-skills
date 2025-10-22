@@ -26,14 +26,42 @@ Expert-level skill for designing, implementing, validating, and maintaining prod
 
 ## Installation
 
-To use these skills in Claude Code:
+### Using Claude Code
 
-1. Clone this repository or download the skill folder
-2. Place the skill folder in your Claude Code skills directory
-3. Configure your n8n MCP server with:
-   - Your n8n instance URL
-   - API credentials
-   - Appropriate timezone settings
+To use these skills in Claude Code, add this repository as a plugin marketplace:
+
+```bash
+/plugin marketplace add omernesh/omers-awesome-skills
+```
+
+Then install the skills:
+
+```bash
+/plugin install n8n-workflow-engineer@omers-awesome-skills
+```
+
+Or browse and install via the UI:
+
+1. Run `/plugin marketplace add omernesh/omers-awesome-skills`
+2. Select "Browse and install plugins"
+3. Select "omers-awesome-skills"
+4. Select the skill you want to install
+5. Select "Install now"
+
+### Using Claude.ai or API
+
+Download the skill folder as a ZIP file and upload it through:
+
+- **Claude.ai**: Settings → Skills → Upload custom skill
+- **API**: Use the [Skills API](https://docs.claude.com/en/api/skills-guide#creating-a-skill)
+
+### Configuration
+
+After installation, configure your n8n MCP server with:
+
+- Your n8n instance URL
+- API credentials
+- Appropriate timezone settings
 
 ## Requirements
 
