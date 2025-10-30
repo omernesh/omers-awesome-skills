@@ -1,22 +1,32 @@
 {
-  "name": "omers-awesome-skills",
-  "owner": {
-    "name": "omernesh",
-    "email": "noreply@github.com"
-  },
-  "metadata": {
-    "description": "A collection of expert-level Claude Code skills for automation, AI agents, workflow engineering, and more.",
-    "version": "1.0.0"
-  },
-  "plugins": [
-    {
-      "name": "n8n-workflow-engineer",
-      "description": "Expert-level skill for designing, implementing, validating, and maintaining production-ready n8n automation workflows using comprehensive MCP tooling. Handles everything from simple webhook-to-API flows to complex multi-agent AI systems.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./n8n-workflow-engineer"
-      ]
-    }
-  ]
-}
+    "name": "omers-awesome-skills",
+    "owner": {
+      "name": "omernesh",
+      "email": "omernesher@gmail.com"
+    },
+    "metadata": {
+      "description": "A collection of expert-level Claude Code skills for automation, AI agents, workflow engineering, and more.",
+      "version": "1.0.0"
+    },
+    "plugins": [
+      {
+        "name": "n8n-workflow-engineer",
+        "description": "Expert-level skill for designing, implementing, validating, and maintaining production-ready n8n automation workflows using
+  comprehensive MCP tooling. Handles everything from simple webhook-to-API flows to complex multi-agent AI systems.",
+        "source": "./",
+        "strict": false,
+        "skills": [
+          "./n8n-workflow-engineer"
+        ]
+      },
+      {
+        "name": "senior-agno-developer",
+        "description": "A comprehensive skill for building production-ready AI agents and agentic systems using the Agno framework.",
+        "source": "./",
+        "strict": false,
+        "skills": [
+          "./senior-agno-developer"
+        ]
+      }
+    ]
+  }
