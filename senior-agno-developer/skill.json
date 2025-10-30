@@ -1,0 +1,62 @@
+{
+  "name": "senior-agno-developer",
+  "version": "1.0.0",
+  "title": "Senior Agno Developer",
+  "description": "Expert-level skill for building production-ready AI agents and agentic systems using the Agno framework. Covers agent architecture, multi-agent teams, AgentOS deployment, tool integration, RAG patterns, and production best practices.",
+  "author": "AI Skills Development",
+  "created": "2025-01-29",
+  "updated": "2025-01-29",
+  "category": "Development",
+  "tags": [
+    "agno",
+    "ai-agents",
+    "llm",
+    "agentic-systems",
+    "rag",
+    "multi-agent",
+    "openai",
+    "anthropic",
+    "python",
+    "production",
+    "agentos"
+  ],
+  "expertise_level": "Senior",
+  "framework": "Agno",
+  "language": "Python",
+  "documentation_url": "https://docs.agno.com/",
+  "github_url": "https://github.com/agno-agi/agno",
+  "skill_type": "technical_framework",
+  "capabilities": [
+    "Agent creation and configuration",
+    "Multi-agent team orchestration",
+    "AgentOS infrastructure management",
+    "Tool integration and custom tools",
+    "Knowledge base and RAG implementation",
+    "Memory and session management",
+    "Production deployment",
+    "API development",
+    "Workflow automation"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4o",
+    "OpenAI GPT-4o-mini",
+    "Anthropic Claude Sonnet 4",
+    "Anthropic Claude Opus 4",
+    "Google Gemini 2.0",
+    "Groq",
+    "Ollama",
+    "xAI Grok"
+  ],
+  "requirements": {
+    "python": ">=3.10",
+    "dependencies": [
+      "agno",
+      "openai",
+      "anthropic",
+      "google-generativeai",
+      "sqlalchemy",
+      "fastapi",
+      "uvicorn"
+    ]
+  }
+}
